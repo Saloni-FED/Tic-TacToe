@@ -1,0 +1,39 @@
+body{
+  height:100vh;
+  width:100vw;
+  background-color: black;
+  color:white
+}
+.main{
+  display:grid;
+  grid-template-columns: repeat(3,100px);
+  /* grid-gap:2px; */
+  justify-content: center;
+}
+.h1-square{
+  height:4rem;
+  width:4rem;
+  border: 2px solid white;
+  background-color: beige;
+  color:black;
+  text-align: center;
+  font-size: 3rem;
+  box-shadow: 2px 2px 4px white;
+  border-radius: 10%;
+}
+h1{
+  text-align: center;
+  font-size: 2rem;
+}
+.win{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  background-color: white;
+  padding:1rem 2rem;
+  border-radius: 10%;
+  font-size: 1rem;
+  font-weight: bolder;
+}
