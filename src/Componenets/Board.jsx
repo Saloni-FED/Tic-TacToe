@@ -33,7 +33,7 @@ const Board = () => {
     ) : (
       <div className="win">
         <h1>
-          {winner == "X" ? "Player 1 is a winner 🏆" : "Player 2 is winner 🏆"}
+          {winner == "X" ? "Player 1 is a ultimate winner 🏆" : "Player 2 is ultimate winner 🏆"}
         </h1>
         <button
           onClick={() => {
